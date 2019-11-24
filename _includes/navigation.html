@@ -1,0 +1,8 @@
+<nav>
+    <ul>
+        <li style='float:left;'><a href='index.html'><img src='assets/images/Logo.png' width=30 height=30></a></li>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
