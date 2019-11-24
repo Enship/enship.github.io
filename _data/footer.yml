@@ -1,0 +1,10 @@
+- name: <a href="facebook.com" class="fa fa-facebook"></a>
+  link: /contact.html
+- name: Members
+  link: /members.html
+- name: Faculty
+  link: /faculty.html
+- name: Achievements
+  link: /achievements.html
+- name: About Us
+  link: /about.html
