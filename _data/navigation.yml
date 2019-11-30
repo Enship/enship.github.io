@@ -1,10 +1,10 @@
-- name: Contact Us
-  link: /contact.html
+- name: About Us
+  link: /about.html
+- name: Achievements
+  link: /achievements.html
 - name: Members
   link: /members.html
 - name: Faculty
   link: /faculty.html
-- name: Achievements
-  link: /achievements.html
-- name: About Us
-  link: /about.html
+- name: Contact Us
+  link: /contact.html

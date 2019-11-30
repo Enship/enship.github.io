@@ -2,35 +2,8 @@
     <a href="https://darthfire.github.io/Enship/index.html" class="logo">ENSHIP</a>
     <div class="theline">☰</div>
     <ul>
-        <a href="https://darthfire.github.io/Enship/index.html">
-            <li>
-                HOME
-            </li>
-        </a>
-        <a href="https://darthfire.github.io/Enship/enship2017.html">
-            <li>
-                EN$HIP 2017
-            </li>
-        </a>
-        <a href="https://darthfire.github.io/Enship/about.html">
-            <li>
-                ABOUT
-            </li>
-        </a>
-        <a href="https://darthfire.github.io/Enship/members.html">
-            <li>
-                MEMBERS
-            </li>
-        </a>
-        <a href="https://darthfire.github.io/Enship/faculty.html">
-            <li>
-                FACULTY
-            </li>
-        </a>
-        <a href="https://darthfire.github.io/Enship/contact.html">
-            <li>
-                CONTACT
-            </li>
-        </a>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.link }}">{{ item.name }}</a></li>
+        {% endfor %}
     </ul>
 </header>
