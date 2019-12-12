@@ -6,15 +6,17 @@
         <script type='text/javascript' src='assets/js/main.js'></script>
         <link rel='stylesheet' href='assets/css/main.css'>
         <link rel="stylesheet" href='assets/css/header.css'>
+        <link rel="stylesheet" href='assets/css/footer.css'>
+        <link rel="stylesheet" href='assets/css/flaticon.css'>
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        {% include navigation.html %}
+        {% include header.html %}
         <br><br>
-        {{ content }}
-        <footer>
-            {% include footer.html %}
-        </footer>
+        <div class='main'>
+            {{ content }}
+        </div>
+        {% include footer.html %}
     </body>
 </html>
