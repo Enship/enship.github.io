@@ -1,8 +1,8 @@
 <header>
-    <a href="https://darthfire.github.io/Enship/index.html" class="logo">ENSHIP</a>
+    <a href="/" class="logo">ENSHIP</a>
     <div class="theline">☰</div>
     <ul>
-        {% for item in site.data.navigation %}
+        {% for item in site.data.header %}
         <li><a href="{{ item.link }}">{{ item.name }}</a></li>
         {% endfor %}
     </ul>
