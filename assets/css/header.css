@@ -9,11 +9,11 @@ header {
 header .logo {
   float: left;
   padding: 7.5px;
-  font-family:"ail";
+  font-family: "ail";
   color: #ecf0f1;
-  font-size:2.3em;
-  text-decoration:none;
-  margin-left:25px;
+  font-size: 2.3em;
+  text-decoration: none;
+  margin-left: 25px;
 }
 
 header ul {
@@ -54,37 +54,22 @@ header ul li:hover {
   position: absolute;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   .theline {
     display: block !important;
     position: absolute;
     right: 10%;
-    margin-top: 25px;
+    margin-top: 15px;
     font-size: 20pt;
 	cursor:pointer;
   color: #ecf0f1;
   }
 
   header {
-    height: 100px;
+    height: 60px;
     overflow: hidden;
   }
   header ul {
     padding-top: 80px;
-  }
-  header ul li {
-    display: block;
-    text-align: center;
-    padding: 20px;
-  }
-
-  header ul li:hover{
-	  color: #ecf0f1;
-    border-bottom: none;
-    height: 20px;
-  }
-  header img {
-    padding: 17.5px;
-    width: 150px;
   }
 }
