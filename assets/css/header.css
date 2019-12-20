@@ -15,17 +15,14 @@ header .logo {
   text-decoration: none;
   margin-left: 25px;
 }
-
 header ul {
   list-style: none;
   text-align: right;
 }
-
 header ul a {
   text-decoration: none;
   color: #ecf0f1;
 }
-
 header ul li {
   display: inline-block;
   font-family:"Montserrat";
@@ -38,16 +35,13 @@ header ul li {
   height:20px;
   margin:0;
 }
-
 header ul li:hover {
 	height:15px;
 	border-bottom: 5px solid #ecf0f1;
 }
-
 .theline {
   display: none;
 }
-
 .break {
   height: 6px;
   width: 100%;
@@ -59,15 +53,17 @@ header ul li:hover {
     display: block !important;
     position: absolute;
     right: 10%;
-    margin-top: 15px;
+    margin-top: 3.5%;
     font-size: 20pt;
 	cursor:pointer;
   color: #ecf0f1;
   }
-
   header {
-    height: 60px;
+    height: 20%;
     overflow: hidden;
+  }
+  header .logo {
+    margin-top: 2%;
   }
   header ul {
     padding-top: 80px;
