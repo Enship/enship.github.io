@@ -53,19 +53,21 @@ header ul li:hover {
     display: block !important;
     position: absolute;
     right: 10%;
-    margin-top: 3.5%;
-    font-size: 20pt;
+    margin-top: 6.5%;
+    font-size: 40pt;
 	cursor:pointer;
   color: #ecf0f1;
   }
   header {
-    height: 20%;
+    height: 10%;
     overflow: hidden;
   }
   header .logo {
-    margin-top: 2%;
+    margin-top: 4%;
+    font-size: 5em;
   }
   header ul {
+    display: none;
     padding-top: 80px;
   }
 }
